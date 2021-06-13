@@ -12,7 +12,7 @@ app.use(express.urlencoded({extended: false}));
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'r08020206',
+  password: 'password',
   database: 'list_app',
   dateStrings:'date'//日付をdate型にする
 });
