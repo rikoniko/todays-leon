@@ -12,10 +12,10 @@ app.use(express.static('public'));
 app.use(express.urlencoded({extended: false}));
 
 const connection = mysql.createConnection({
-  host: 'us-cdbr-east-04.cleardb.com',
-  user: 'b736812e17575c',
-  password: 'b66d8835',
-  database: 'heroku_b949812341b6320',
+  host: 'host',
+  user: 'user',
+  password: 'password',
+  database: 'database',
   dateStrings:'date'//日付をdate型にする
 });
 
